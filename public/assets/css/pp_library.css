@@ -1,0 +1,323 @@
+:root {
+  --color-white: #ffffff;
+  --color-white-2: #fff7fb;
+  --color-black: #000000;
+  --color-pink-1: #d8428c;
+  --color-pink-2: #c22674;
+  --color-pink-3: #e4509e;
+  --color-black-1: #565555;
+  --color-black-2: #6c6c6c;
+  --color-black-3: #696969;
+  --color-black-4: #8e8d8d;
+  --color-black-5: #393939;
+  --color-black-6: #515151;
+  --color-black-7: #b0b0b0;
+  --color-black-8: #888888;
+  --color-black-9: #343434;
+  --color-green-1: #179d01;
+  --color-blue-1: #2271b1;
+}
+
+.pinkPawsButtonCls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 4px 20px;
+  border-radius: 6px;
+}
+
+.disablePinkPawsButton {
+  border: 1px solid #dddddd;
+  opacity: 95%;
+  background: #ffffff;
+  color: #dddddd;
+  opacity: 95%;
+}
+
+.solidButton {
+  background: var(--color-blue-1);
+  opacity: 95%;
+  color: var(--color-white);
+  border: 1px solid var(--color-blue-1);
+}
+
+.solidButton:hover {
+  border: 1px solid var(--color-blue-1);
+  background: var(--color-blue-1);
+  opacity: 100%;
+}
+
+.outlineButton {
+  border: 1px solid var(--color-pink-3);
+  opacity: 95%;
+  background: var(--color-white);
+  color: var(--color-pink-3);
+}
+
+.outlineButton:hover {
+  background: var(--color-white-2);
+  border: 1px solid var(--color-pink-3);
+  color: var(--color-pink-3);
+}
+
+.selectFieldCls div {
+  padding: 0 !important;
+  padding-right: 12px !important;
+}
+
+.atocompleteCls div>div {
+  padding: 0 3px 0 0 !important;
+}
+
+.searchText input {
+  padding: 4px;
+}
+
+.productTableCls th {
+  padding: 10px;
+}
+
+.productTableCls td {
+  padding: 10px;
+}
+
+.dynformDropCls {
+  border-radius: 0 !important;
+}
+
+.dynformDropCls div {
+  padding: 0.5rem 1rem;
+}
+
+.dynFormTextFieldCls input {
+  padding: 0.5rem 1rem;
+  border-radius: 0 !important;
+}
+
+.dynFormTextFieldCls div {
+  border-radius: 0 !important;
+}
+
+.dynFormTextFieldCls_root,
+.dynformDropCls_root {
+  display: flex;
+  align-items: center;
+}
+
+.fieldset,
+input,
+.textarea {
+  border-color: var(--color-pink-1);
+}
+
+.pageinationInput input {
+  text-align: center;
+}
+
+.pageinationInput input[type="text"]:disabled {
+  color: #464646;
+  -webkit-text-fill-color: #464646;
+  opacity: 1;
+}
+
+.ReactQuill_root {
+  min-height: 16rem;
+}
+
+.ReactQuill_root div:nth-child(2) {
+  /* border: 0 !important; */
+  height: 17em;
+}
+
+.listing_drop div>div {
+  height: 40px;
+  padding: 0 0.5rem !important;
+}
+
+.listing_drop button {
+  height: 100%;
+}
+
+.imageDeopZone {
+  border: 1px dashed var(--color-pink-2);
+  border-radius: 4px;
+  min-height: 8rem;
+  height: 100%;
+  width: 100%;
+}
+
+.imageDeopZone button {
+  width: 100%;
+  min-height: 8rem;
+  height: 100%;
+}
+
+.product_variations .imageDeopZone img {
+  padding: 8px;
+  padding-bottom: 0;
+  width: 200px;
+}
+
+.imageDeopZone .image-item__btn-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  margin-bottom: 8px;
+}
+
+.imageDeopZone .image-item__btn-wrapper span {
+  border: 1px solid var(--color-pink-1);
+  border-radius: 4px;
+  padding: 2px 4px;
+}
+
+.ql-toolbar {
+  background-color: var(--color-black-4);
+}
+
+.ql-editor {
+  background-color: var(--color-white);
+}
+
+.ql-snow.ql-toolbar button.ql-active .ql-stroke {
+  stroke: #ffa9d7 !important;
+}
+
+.ql-snow .ql-stroke {
+  stroke: var(--color-white) !important;
+}
+
+.ql-snow.ql-toolbar button.ql-active .ql-fill {
+  fill: #ffa9d7 !important;
+  stroke: #ffa9d7 !important;
+}
+
+.ql-snow .ql-fill {
+  fill: var(--color-white) !important;
+  stroke: var(--color-white) !important;
+}
+
+.ql-picker-label {
+  color: var(--color-white);
+}
+
+
+
+
+
+:root {
+  --color-white: #ffffff;
+  --color-white-2: #fff7fb;
+  --color-black: #000000;
+  --color-pink-1: #d8428c;
+  --color-pink-2: #c22674;
+  --color-pink-3: #e4509e;
+  --color-black-1: #565555;
+  --color-black-2: #6c6c6c;
+  --color-black-3: #696969;
+  --color-black-4: #8e8d8d;
+  --color-black-5: #393939;
+  --color-black-6: #515151;
+  --color-black-7: #b0b0b0;
+  --color-black-8: #888888;
+  --color-black-9: #343434;
+  --color-green-1: #179d01;
+}
+
+.pinkPawsButtonCls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 4px 20px;
+  border-radius: 6px;
+}
+
+.disablePinkPawsButton {
+  border: 1px solid #dddddd;
+  opacity: 95%;
+  background: #ffffff;
+  color: #dddddd;
+  opacity: 95%;
+}
+
+.solidButton {
+  background: var(--color-blue-1);
+  opacity: 95%;
+  color: var(--color-white);
+  border: 1px solid var(--color-blue-1);
+}
+
+.solidButton:hover {
+  border: 1px solid var(--color-blue-1);
+  background: var(--color-blue-1);
+  opacity: 100%;
+}
+
+.outlineButton {
+  border: 1px solid var(--color-blue-1);
+  opacity: 95%;
+  background: var(--color-white);
+  color: var(--color-blue-1);
+}
+
+.outlineButton:hover {
+  background: var(--color-white-2);
+  border: 1px solid var(--color-blue-1);
+  color: var(--color-blue-1);
+}
+
+.selectFieldCls div {
+  padding: 0 !important;
+}
+
+.atocompleteCls div>div {
+  padding: 0 3px 0 0 !important;
+}
+
+.searchText input {
+  padding: 4px;
+}
+
+.productTableCls th {
+  padding: 10px;
+}
+
+.productTableCls td {
+  padding: 10px;
+}
+
+.dynformDropCls div {
+  padding: 0.5rem 1rem;
+}
+
+.dynFormTextFieldCls input {
+  padding: 0.5rem 1rem;
+}
+
+.dynFormTextFieldCls_root,
+.dynformDropCls_root {
+  display: flex;
+  align-items: center;
+}
+
+.fieldset,
+input,
+.textarea {
+  border-color: var(--color-pink-1);
+}
+
+.pageinationInput input {
+  text-align: center;
+}
+
+.ReactQuill_root {
+  min-height: 16rem;
+}
+
+.ReactQuill_root div:nth-child(2) {
+  /* border: 0 !important; */
+  height: 16em;
+}

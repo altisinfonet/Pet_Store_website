@@ -1,0 +1,3 @@
+User-agent: *
+Sitemap: https://pinkstore.altisinfonet.in/sitemap.xml
+Disallow: /admin/
